@@ -20,7 +20,7 @@ log_404_url="/root/curlDir/f8-log/log_404_url.txt"
 log_other_url="/root/curlDir/f8-log/log_other_url.txt"
 
 
-# 对任意一个文件
+# 对任意一个文件,行数
 file=$packageDir""$fileName
 lines=`wc -l < file`
 
